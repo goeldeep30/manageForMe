@@ -1,0 +1,20 @@
+{
+  "standard": [
+    "room_num":1,
+    "room_num":2,
+    "room_num":3,
+    "room_num":4,
+    "room_num":5,
+    "room_num":6,
+    "room_num":7
+  ],
+  "AC": [
+    "room_num":8,
+    "room_num":9,
+    "room_num":10,
+    "room_num":11,
+    "room_num":12,
+    "room_num":13,
+    "room_num":14
+  ]
+}

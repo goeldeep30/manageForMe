@@ -1,0 +1,11 @@
+
+{% extends "layout/layout.html" %}
+{% from "layout/test.html" import roomStatus %}
+{% block content%}
+  <div class="container-fluid">
+    {% for room in data['standard']: %}
+    <h3 class="alert alert-primary">room {{room['number']}}{{roomStatus('available')}}</h3>
+    {% endfor %}
+
+  </div>
+{% endblock content%}
